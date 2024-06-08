@@ -73,3 +73,7 @@ code {
 #toTopButton:hover {
   background-color: #555;
 }
+
+#table-of-contents {
+  text-decoration: none;
+}

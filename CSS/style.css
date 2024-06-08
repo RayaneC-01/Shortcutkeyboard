@@ -52,3 +52,24 @@ code {
   padding: 2px 4px;
   border-radius: 3px;
 }
+
+/* Style du bouton To Top */
+#toTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#toTopButton:hover {
+  background-color: #555;
+}

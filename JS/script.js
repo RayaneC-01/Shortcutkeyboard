@@ -22,6 +22,7 @@ function scrollFunction() {
     }
 }
 
+
 // Ajoute un gestionnaire d'événement au bouton "To Top" pour gérer les clics
 document.getElementById("toTopButton").onclick = function () {
     // Lorsque le bouton est cliqué, fait défiler la page jusqu'en haut

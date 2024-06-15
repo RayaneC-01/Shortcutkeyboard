@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  font-size: 18px;
 }
 li > a {
   text-decoration: none;
@@ -57,6 +58,15 @@ code {
   border-radius: 2px;
 }
 
+nav#table-of-contents > ul > li {
+  list-style-type: decimal;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#nav#table-of-contents > ul > li:hover {
+  text-decoration: underline;
+}
 /* Style du bouton To Top */
 #toTopButton {
   display: none;

@@ -58,13 +58,14 @@ code {
   border-radius: 2px;
 }
 
-nav#table-of-contents > ul > li {
+#table-of-contents > ul > li {
   list-style-type: decimal;
   font-weight: 500;
   font-size: 18px;
+  line-height: auto;
 }
 
-#nav#table-of-contents > ul > li:hover {
+nav#table-of-contents > ul > li:hover {
   text-decoration: underline;
 }
 /* Style du bouton To Top */

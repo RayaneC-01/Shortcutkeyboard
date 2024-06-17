@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
@@ -23,8 +23,18 @@ main {
   margin: 20px auto;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url("/Images/water-5314502_1280.jpg");
 }
 
+section {
+  background-color: #fcfffe;
+  padding: 20px;
+  border: 3px solid #333;
+}
+
+#symbole-sur-mac > p {
+  font-size: 17px;
+}
 h1,
 h2 {
   color: #333;
